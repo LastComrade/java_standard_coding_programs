@@ -7,6 +7,7 @@ public class _12_AlternateCharsInAString {
 		System.out.println(obj.solve("HeyEveryoneMyNameIsKonark"));
 	}
 
+	// O(N)
 	private String solve(String s) {
 		String oddResult = "";
 		String evenResult = "";

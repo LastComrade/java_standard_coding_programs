@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GettingFirstChar_01 {
+	
+	// O(N)
 	private List<Character> solve(String s) {
 		List<Character> result = new ArrayList<>();
 		String[] words = s.split(" ");

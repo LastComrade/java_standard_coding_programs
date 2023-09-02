@@ -46,7 +46,7 @@ public class _07_NumberValidation {
 		return s.length() > 0 && true;
 	}
 
-	// O(N), seems like O(1) but the in-built method (parseInt) take linear time i.e O(N)
+	// O(N), seems like O(1) but the in-built method (parseInt) take linear time, therefore, O(N)
 	private boolean solve2(String s) {
 		try {
 			Integer.parseInt(s);

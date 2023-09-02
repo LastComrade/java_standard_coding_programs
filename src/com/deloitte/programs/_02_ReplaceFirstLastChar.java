@@ -1,8 +1,8 @@
 package com.deloitte.programs;
 
-public class ReplaceFirstLastChar_02 {
+public class _02_ReplaceFirstLastChar {
 	public static void main(String[] args) {
-		ReplaceFirstLastChar_02 obj = new ReplaceFirstLastChar_02();
+		_02_ReplaceFirstLastChar obj = new _02_ReplaceFirstLastChar();
 		System.out.println(obj.solve("Konark Lohat"));
 	}
 

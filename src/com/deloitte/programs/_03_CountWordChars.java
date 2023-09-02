@@ -1,8 +1,8 @@
 package com.deloitte.programs;
 
-public class CountWordChars_03 {
+public class _03_CountWordChars {
 	public static void main(String[] args) {
-		CountWordChars_03 obj = new CountWordChars_03();
+		_03_CountWordChars obj = new _03_CountWordChars();
 		
 		for (int count : obj.solve("Java String Methods Tutorial With Examples")) {
 			System.out.print(count + " ");

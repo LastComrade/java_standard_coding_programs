@@ -3,7 +3,7 @@ package com.deloitte.programs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GettingFirstChar_01 {
+public class _01_GettingFirstChar {
 	
 	// O(N)
 	private List<Character> solve(String s) {
@@ -24,7 +24,7 @@ public class GettingFirstChar_01 {
 	
 	
 	public static void main(String[] args) {
-		GettingFirstChar_01 obj = new GettingFirstChar_01();
+		_01_GettingFirstChar obj = new _01_GettingFirstChar();
 		
 		for (char c : obj.solve("Wherever you go, you can always find good people . 022012 asd")) {
 			System.out.print(c + " ");

@@ -7,6 +7,7 @@ public class _04_GetNextChar {
 		System.out.println(obj.solve("A String Array is an Array of a fixed number of String values"));
 	}
 
+	// O(N)
 	private String solve(String s) {
 		String result = "";
 
